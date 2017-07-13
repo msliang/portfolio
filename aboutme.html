@@ -2,39 +2,38 @@
 <html>
   <head>
     <title>Michelle Liang </title>
-    <style>
-      .rotate {
-        -ms-transform: rotate(90deg); /* IE 9 */
-        -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
-        transform: rotate(90deg);
-        margin-top: 88px;
-      }
-    </style>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body style="background-color:cyan">
       <div align="center">
-        <h1 style="font-family:verdana; color: red">Welcome!</h1>
-        <h2 style="font-family:verdana; color: red">~Michelle Liang~</h2>
+        <h1 style="font-family:verdana; color: red; font-size:200%">Welcome!</h1>
       </div>
         <div align="center">
           <table>
             <tr>
               <th>
-                <button type="button">Bio</button>
+                <form action="bio.html">
+                  <button type ="bio" value ="Bio">Bio</button>
+                </form>
+
               </th>
               <th>
-                <button type="button">Resume</button>
+                <form action="resume.html">
+                  <button type ="resume" value ="Resume">Resume</button>
+                </form>
               </th>
               <th>
-                <button type="button">Contact Me</button>
+                <form action="contact.html">
+                  <button type ="contact" value ="Contact">Contact</button>
+                </form>
               </th>
             </tr>
           </table>
         </div>
         <div align="center">
-          <img align="middle"; alt="profile picture"; class="rotate" src="profilePic.jpg" style="width:400px;height:800;">
-          <br></br><br></br>
-          <p style="font-size:20px; color:blue">Hello! My name is Michelle Liang and I'm a High School Junior at Fox Lane High School.</p>
+          <img align="middle"; alt="profile picture"; class="rotate" src="profilePic.jpg" style="width:500px;height:1000;">
+          <br></br>
+          <p style="font-size:45px; color:red; font-family:verdana"><b>~Michelle Liang~</b></p>
       </div>
   </body>
 </html>

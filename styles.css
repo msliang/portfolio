@@ -4,3 +4,15 @@
     transform: rotate(90deg);
     margin-top: 88px;
   }
+  button{
+		background-color:  #cc0000;
+		color: white;
+		font-weight: 700;
+		font-size: 200%;
+		font-family: "Georgia", serif;
+	}
+	button:hover{
+		color:  #cc0000;
+		background:white;
+		cursor: pointer;
+	}
