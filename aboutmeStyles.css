@@ -16,3 +16,23 @@
 		background:white;
 		cursor: pointer;
 	}
+
+  h1{
+    font-family:"Verdana";
+    font-size: 40px;
+    padding-top: :5px
+}
+body{
+  background-color: cyan
+}
+div.num1 {
+    width: 100%;
+    border: 1px solid gray;
+}
+header{
+    padding: 1em;
+    color: 	cyan;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
