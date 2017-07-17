@@ -1,9 +1,23 @@
 h1{
   text-align: center;
-  color:red;
+  color:cyan;
   font-size:50px;
   font-family: Verdana
 }
 body{
   background-color: cyan;
+}
+header{
+    padding: 1em;
+    color: 	cyan;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+p{
+  text-align: center;
+  padding:1em;
+  font-size: 40px;
+  color:black;
+  font-family: Garamond;
 }
