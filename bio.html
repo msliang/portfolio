@@ -7,6 +7,17 @@
     am a junior at Fox Lane High School in Westchester, New York. I have a family
   of five people and I am the youngest. </p>
   <div align="center">
+    <form name="moreInfo">
+      <span id="extraInfo" onclick="info()">Click here for more information!</span>
+    </form>
+  </div>
+  <p id="extraInfo"></p>
+<script>
+    function info(){
+      document.getElementById("extraInfo").innerHTML= "I can speak four languages!"
+    }
+</script>
+  <div align="center">
     <img alt="Fox Lane Logo"; class="rotate"; src="foxLane.gif"; style="width:120px;height:150">
     <img alt="New York"; class="rotate"; src="newYork.gif"; style="width:200px;height:150">
   </div>

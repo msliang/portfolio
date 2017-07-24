@@ -1,1 +1,24 @@
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="contactStyle.css">
+<body>
+  <header>
+    <h1>Contact Information</h1>
+  </header>
+  <p><b>
+    Email- liangmichelles@gmail.com
+    <br></br>
+    Phone Number- 914-334-1222
+  </b></p>
+  <div align="center">
+    <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="contactMe.jpg" alt="Contact Picture">
+    </div>
+  <script>
+    function bigImg(x) {
+        x.style.height = "250px";
+        x.style.width = "550px";
+    }
+
+    function normalImg(x) {
+        x.style.height = "200px";
+        x.style.width = "400px";
+    }
+  </script>

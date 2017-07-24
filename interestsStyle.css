@@ -1,9 +1,3 @@
-h1{
-  text-align: center;
-  color:cyan;
-  font-size:50px;
-  font-family: Verdana
-}
 body{
   background-color: cyan;
 }
@@ -14,6 +8,12 @@ header{
     clear: left;
     text-align: center;
 }
+h1{
+  text-align: center;
+  color:cyan;
+  font-size:50px;
+  font-family: Verdana
+}
 p{
   text-align: center;
   padding:1em;
@@ -21,8 +21,11 @@ p{
   color:black;
   font-family: Garamond;
 }
-span{
-  text-align: center;
-  font-size: 30px;
+h3{
+  font-size: 45px;
   font-family: Garamond;
+}
+ul{
+  font-size: 30px;
+  font-family:Garamond;
 }
